@@ -36,4 +36,8 @@ describe('Main', () => {
     expect(FizzBuzz(14)).to.be.equal(14);
   });
 
+  it('should return 0 when 0', () => {
+    expect(FizzBuzz(0)).to.equal(0);
+  });
+
 });
